@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcPosApiPlugin", "PcPosApiPlugin\PcPosApiPlugin.csproj", "{3E679985-18A9-4E34-AADE-4571B9109D3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcPosApi", "PcPosApi\PcPosApi.csproj", "{9CA67DF1-A28A-4B93-BD06-590D14E23FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{15BD605B-B2D1-4595-A3BE-93B483BC6DD8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PcPosApiSetup", "PcPosApiSetup\PcPosApiSetup.vdproj", "{2B3FCA2D-5832-4DE9-BD2C-EBAF87A28554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E679985-18A9-4E34-AADE-4571B9109D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E679985-18A9-4E34-AADE-4571B9109D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E679985-18A9-4E34-AADE-4571B9109D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA67DF1-A28A-4B93-BD06-590D14E23FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA67DF1-A28A-4B93-BD06-590D14E23FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA67DF1-A28A-4B93-BD06-590D14E23FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA67DF1-A28A-4B93-BD06-590D14E23FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BD605B-B2D1-4595-A3BE-93B483BC6DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BD605B-B2D1-4595-A3BE-93B483BC6DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BD605B-B2D1-4595-A3BE-93B483BC6DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3FCA2D-5832-4DE9-BD2C-EBAF87A28554}.Debug|Any CPU.ActiveCfg = Debug
+		{2B3FCA2D-5832-4DE9-BD2C-EBAF87A28554}.Release|Any CPU.ActiveCfg = Release
+		{2B3FCA2D-5832-4DE9-BD2C-EBAF87A28554}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://datacenter:8080/tfs/sppc%20projects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PcPosApi\\PcPosApi.csproj
+		SccProjectName1 = PcPosApi
+		SccLocalPath1 = PcPosApi
+		SccProjectUniqueName2 = PcPosApiPlugin\\PcPosApiPlugin.csproj
+		SccProjectName2 = PcPosApiPlugin
+		SccLocalPath2 = PcPosApiPlugin
+		SccProjectUniqueName3 = PcPosApiSetup\\PcPosApiSetup.vdproj
+		SccProjectName3 = PcPosApiSetup
+		SccLocalPath3 = PcPosApiSetup
+		SccProjectUniqueName4 = test\\test.csproj
+		SccProjectName4 = test
+		SccLocalPath4 = test
+	EndGlobalSection
+EndGlobal
